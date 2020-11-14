@@ -1,0 +1,4 @@
+.ask/
+infrastructure/
+node_modules/
+dist/

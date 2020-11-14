@@ -1,0 +1,458 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "star wars figures",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetHeightIntent",
+                    "slots": [
+                        {
+                            "name": "figureName",
+                            "type": "FIGURE_NAME"
+                        }
+                    ],
+                    "samples": [
+                        "after the height of {figureName}",
+                        "how tall is {figureName}",
+                        "how big is {figureName}",
+                        "how large is {figureName}"
+                    ]
+                },
+                {
+                    "name": "GetWeightIntent",
+                    "slots": [
+                        {
+                            "name": "figureName",
+                            "type": "FIGURE_NAME"
+                        }
+                    ],
+                    "samples": [
+                        "for the weight of {figureName}",
+                        "how heavy is {figureName}",
+                        "how much does {figureName} weigh",
+                        "what is the weight of {figureName}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Luke Skywalker"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Darth Vader"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Leia Organa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Owen Lars"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Beru Whitesun lars"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Biggs Darklighter"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Obi-Wan Kenobi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Anakin Skywalker"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wilhuff Tarkin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chewbacca"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Han Solo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Greedo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jabba Desilijic Tiure"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wedge Antilles"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jek Tono Porkins"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Yoda"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Palpatine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Boba Fett"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bossk"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lando Calrissian"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lobot"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ackbar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mon Mothma"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Arvel Crynyd"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wicket Systri Warrick"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nien Nunb"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nute Gunray"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Finis Valorum"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jar Jar Binks"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Roos Tarpals"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rugor Nass"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ric Olié"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Watto"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sebulba"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Quarsh Panaka"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Shmi Skywalker"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Darth Maul"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bib Fortuna"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ayla Secura"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dud Bolt"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gasgano"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ben Quadinaros"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mace Windu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kit Fisto"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Eeth Koth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Adi Gallia"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Saesee Tiin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Yarael Poof"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Plo Koon"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mas Amedda"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gregar Typho"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cordé"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cliegg Lars"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Poggle the Lesser"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Luminara Unduli"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Barriss Offee"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dormé"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dooku"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bail Prestor Organa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jango Fett"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Zam Wesell"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dexter Jettster"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lama Su"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Taun We"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jocasta Nu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ratts Tyerell"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wat Tambor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "San Hill"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Shaak Ti"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Grievous"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tarfful"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Raymus Antilles"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sly Moore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tion Medon"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Finn"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Poe Dameron"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Captain Phasma"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Padmé Amidala"
+                            }
+                        }
+                    ],
+                    "name": "FIGURE_NAME"
+                }
+            ]
+        }
+    },
+    "version": "4"
+}
